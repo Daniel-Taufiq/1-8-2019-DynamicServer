@@ -8,7 +8,7 @@ const sqlite3 = require('sqlite3');
 
 const public_dir = path.join(__dirname, 'public');
 const template_dir = path.join(__dirname, 'templates');
-const db_filename = path.join(__dirname, 'db', 'usenergy.sqlite3');
+const db_filename = path.join(__dirname, 'database', 'usenergy.sqlite3');
 
 const app = express();
 const port = 8000;
